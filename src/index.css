@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Press+Start+2P&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-900 to-slate-800 text-white;
+    font-family: 'Inter', sans-serif;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-racing-red text-white font-bold rounded-lg 
+           hover:bg-red-600 transition-all duration-300 transform hover:scale-105
+           shadow-lg hover:shadow-xl active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-racing-blue text-white font-bold rounded-lg 
+           hover:bg-blue-600 transition-all duration-300 transform hover:scale-105
+           shadow-lg hover:shadow-xl active:scale-95;
+  }
+
+  .card {
+    @apply bg-slate-800/50 backdrop-blur-md rounded-xl p-6 
+           border border-slate-700 shadow-2xl;
+  }
+
+  .game-text {
+    @apply font-game text-xs sm:text-sm;
+  }
+
+  .racing-text {
+    @apply font-racing text-2xl sm:text-3xl lg:text-4xl;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-racing-red rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-red-600;
+}
+
+/* Loading animation */
+.loading-spinner {
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-top-color: #FF0000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
