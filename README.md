@@ -4,7 +4,7 @@
 
 **A modern, high-performance web-based car racing game built with React & TypeScript**
 
-*Experience the thrill of classic arcade racing with modern web technologies*
+_Experience the thrill of classic arcade racing with modern web technologies_
 
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC.svg)](https://www.typescriptlang.org/)
@@ -23,6 +23,7 @@
 <td width="50%">
 
 ### � **Gameplay**
+
 - 🏁 Classic top-down racing mechanics
 - 🚗 Multiple unique cars with different stats
 - � Dynamic day/night racing modes
@@ -34,6 +35,7 @@
 <td width="50%">
 
 ### 💻 **Technical**
+
 - 📱 Fully responsive (mobile, tablet, desktop)
 - 🎵 Immersive audio system with 7 sound effects
 - 🔥 Real-time Firebase leaderboard
@@ -67,15 +69,15 @@ npm run dev
 
 <div align="center">
 
-| Category | Technology | Purpose |
-|----------|------------|---------|
-| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) | UI Framework |
-| **Language** | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) | Type Safety |
-| **Styling** | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | CSS Framework |
-| **Animation** | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white) | Motion Library |
-| **Backend** | ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat&logo=firebase&logoColor=white) | Database & Auth |
-| **Build Tool** | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) | Build System |
-| **Game Engine** | ![HTML5 Canvas](https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat&logo=html5&logoColor=white) | Rendering |
+| Category        | Technology                                                                                                     | Purpose         |
+| --------------- | -------------------------------------------------------------------------------------------------------------- | --------------- |
+| **Frontend**    | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)                     | UI Framework    |
+| **Language**    | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)       | Type Safety     |
+| **Styling**     | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | CSS Framework   |
+| **Animation**   | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white)     | Motion Library  |
+| **Backend**     | ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat&logo=firebase&logoColor=white)             | Database & Auth |
+| **Build Tool**  | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)                         | Build System    |
+| **Game Engine** | ![HTML5 Canvas](https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat&logo=html5&logoColor=white)        | Rendering       |
 
 </div>
 
@@ -86,25 +88,27 @@ npm run dev
 <td width="50%">
 
 ### 🖥️ **Desktop**
-| Action | Keys |
-|--------|------|
+
+| Action           | Keys          |
+| ---------------- | ------------- |
 | Steer Left/Right | `←→` or `A/D` |
-| Accelerate | `↑` or `W` |
-| Brake | `↓` or `S` |
-| Pause/Resume | `Space` |
-| Toggle Music | `M` |
-| Toggle SFX | `N` |
+| Accelerate       | `↑` or `W`    |
+| Brake            | `↓` or `S`    |
+| Pause/Resume     | `Space`       |
+| Toggle Music     | `M`           |
+| Toggle SFX       | `N`           |
 
 </td>
 <td width="50%">
 
 ### 📱 **Mobile**
-| Action | Gesture |
-|--------|---------|
-| Steer | Swipe Left/Right |
-| Accelerate | Tap & Hold |
-| Pause | Tap Screen |
-| Menu | Touch UI Buttons |
+
+| Action     | Gesture          |
+| ---------- | ---------------- |
+| Steer      | Swipe Left/Right |
+| Accelerate | Tap & Hold       |
+| Pause      | Tap Screen       |
+| Menu       | Touch UI Buttons |
 
 </td>
 </tr>
@@ -146,30 +150,35 @@ road-racer/
 
 ## 🎯 Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | 🚀 Start development server |
-| `npm run build` | 📦 Build for production |
+| Command           | Description                 |
+| ----------------- | --------------------------- |
+| `npm run dev`     | 🚀 Start development server |
+| `npm run build`   | 📦 Build for production     |
 | `npm run preview` | 👀 Preview production build |
-| `npm run lint` | 🔍 Run ESLint checks |
+| `npm run lint`    | 🔍 Run ESLint checks        |
 
 ## 🎨 Game Features Detail
 
 ### 🚗 **Vehicle Selection**
+
 Choose from 4 unique cars, each with different stats:
+
 - **Speedster**: High speed, low handling
 - **Cruiser**: Balanced performance
 - **Thunder**: Quick acceleration
 - **Shadow**: Superior handling
 
 ### 🏆 **Achievement System**
+
 Unlock achievements by completing challenges:
+
 - 🏁 Road Warrior: Drive 5KM without crashing
 - ⛽ Fuel Master: Collect 10 fuel cans
 - 🌙 Night Owl: Complete night mode
 - And many more!
 
 ### 🎵 **Audio Experience**
+
 - Background music with loop functionality
 - 7 different sound effects:
   - Engine sounds
